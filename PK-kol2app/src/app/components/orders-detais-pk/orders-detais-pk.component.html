@@ -1,0 +1,12 @@
+<div class="container mt-3">
+  <div class="card">
+    <div class="card-header">
+      {{ title }}
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{ text }}</p>
+      <img class="picture" [src]="image" alt="picture">
+    </div>
+    <a href="#" class="btn btn-primary w-100" [routerLink]="['/']" >Go back</a>
+  </div>
+</div>
